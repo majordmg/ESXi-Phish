@@ -1,0 +1,4 @@
+config.json
+*.session
+__pycache__
+__pycache__/*
