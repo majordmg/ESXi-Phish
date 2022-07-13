@@ -23,4 +23,4 @@ def hello_world(path):
     return send_from_directory("./", path)
     #return render_template('login.htm')
 
-app.run()
+app.run(host="0.0.0.0", port=80)
